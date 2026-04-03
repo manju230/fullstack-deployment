@@ -6,7 +6,7 @@ pipeline {
    stages {
        stage('Checkout Code') {
            steps {
-               git branch: 'dev', url: 'https://github.com/manju230/fullstack-deployment.git'
+               git branch: 'develop', url: 'https://github.com/manju230/fullstack-deployment.git'
            }
        }
        stage('Terraform Init') {
